@@ -10,6 +10,7 @@ footer {
 
 #article.container {
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .pull-left {
@@ -21,7 +22,7 @@ footer {
 }
 
 .gallery img {
-  max-width: 250px;
+  max-width: 200px;
   margin-right: 20px;
   cursor: pointer;
   border-radius: 5px;
