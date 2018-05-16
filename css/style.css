@@ -1,3 +1,17 @@
+@import url("/fonts/stylesheet.css") media-types;
+
+body {
+  font-family: Miller, serif;
+  font-weight: bold;
+}
+
+h3 {
+  font-family: "Courier New", sans-serif;
+}
+p, label, textarea, button, input {
+  font-family: "Courier New", sans-serif;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -23,10 +37,8 @@ footer {
 
 .gallery img {
   max-width: 200px;
-  margin-right: 20px;
   cursor: pointer;
   border-radius: 5px;
-  margin-bottom: 10px;
 }
 
 .gallery a {
@@ -38,6 +50,39 @@ footer {
 }
 .gallery a:visited {
   text-decoration: none;
+}
+.gallery-img-container {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.gallery-text {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.5);
+  /* text-align: center; */
+}
+.gallery-text span {
+  display: block;
+  color: #fff;
+  margin-left: 15px;
+  margin-bottom: 5px;
+  font-family: "Courier New", sans-serif;
+}
+.gallery-text span.title {
+  text-transform: uppercase;
+  margin-top: 10px;
+}
+.gallery-text:hover {
+  opacity: 1;
 }
 
 @media only screen and (max-width: 600px) {

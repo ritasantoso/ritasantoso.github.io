@@ -1,31 +1,43 @@
 [
   {
-    "title": "Baby, oil on canvas, 56\"",
+    "title": "Baby",
+    "medium": "oil on canvas",
+    "details": "56\"",
     "filename": "baby.jpeg",
     "year": 2018
   },
   {
-    "title": "Blue rose, oil on canvas, 32\"",
+    "title": "Blue rose",
+    "medium": "oil on canvas",
+    "details": "32\"",
     "filename": "blue-rose.jpeg",
     "year": 2018
   },
   {
-    "title": "Cactus, fabric, 15\"",
+    "title": "Cactus",
+    "medium": "fabric",
+    "details": "15\"",
     "filename": "cactus.jpeg",
     "year": 2018
   },
   {
-    "title": "Purple flower blossoming, plaster, 32\"",
+    "title": "Purple flower blossoming",
+    "medium": "plaster",
+    "details": "32\"",
     "filename": "purple-blossom.jpg",
     "year": 2018
   },
   {
-    "title": "Red flower, paper, 11\"",
+    "title": "Red flower",
+    "medium": "paper",
+    "details": "11\"",
     "filename": "red-flower.jpeg",
     "year": 2017
   },
   {
-    "title": "White sunflower, fresco, 72\"",
+    "title": "White sunflower",
+    "medium": "fresco",
+    "details": "72\"",
     "filename": "white-sunflower.jpg",
     "year": 2017
   }
