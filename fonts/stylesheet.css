@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Miller';
+    src: url('Miller-TextBold.eot');
+    src: url('Miller-TextBold.eot?#iefix') format('embedded-opentype'),
+        url('Miller-TextBold.woff2') format('woff2'),
+        url('Miller-TextBold.woff') format('woff'),
+        url('Miller-TextBold.svg#Miller-TextBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Miller';
+    src: url('Miller-TextBold.eot');
+    src: url('Miller-TextBold.eot?#iefix') format('embedded-opentype'),
+        url('Miller-TextBold.woff2') format('woff2'),
+        url('Miller-TextBold.woff') format('woff'),
+        url('Miller-TextBold.svg#Miller-TextBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
