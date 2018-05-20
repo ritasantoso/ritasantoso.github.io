@@ -1,18 +1,21 @@
 /***
 * GLOBAL STYLES
 ***/
-@import url("/fonts/stylesheet.css") media-types;
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
 
 body {
-  font-family: Miller, serif;
+  font-family: "Playfair Display", serif;
   font-weight: bold;
+  font-style: normal;
 }
 
 h3 {
   font-family: "Courier New", sans-serif;
+  font-style: normal;
 }
 p, label, textarea, button, input {
   font-family: "Courier New", sans-serif;
+  font-style: normal;
 }
 
 /***
@@ -48,9 +51,10 @@ nav .collapse ul {
 }
 nav .collapse ul li {
   display: inline-block;
-  border: 2px solid black;
+  /* border: 2px solid black; */
   margin-right: 10px;
-  padding: 3px;
+  padding: 0 5px 2px 5px;
+
 }
 nav .collapse ul li:hover {
   background-color: rgba(0,0,0,0.3);
@@ -61,7 +65,10 @@ nav .collapse ul li.active {
 nav .collapse ul li a {
   color: #000;
   text-decoration: none;
-  font-size: 24pt;
+  font-size: 18pt;
+  /* padding-right: 3px;
+  margin-top: -5px;
+  margin-bottom: -5px; */
 }
 
 @media only screen and (max-width: 600px) {
@@ -126,6 +133,12 @@ footer .attribution a:visited {
   margin: 0 auto;
 }
 
+@media screen and (max-width: 600px) {
+  .container {
+    width: 90%;
+  }
+}
+
 /***
 * ARTICLE
 ***/
@@ -142,12 +155,13 @@ footer .attribution a:visited {
 ***/
 .mfp-bottom-bar {
   font-family: "Courier New", sans-serif;
+  font-style: normal;
 }
 
 .gallery img {
   cursor: pointer;
   border-radius: 5px;
-  max-width: 100%;
+  max-height: 200px;
 }
 
 .gallery a {
@@ -161,13 +175,13 @@ footer .attribution a:visited {
   text-decoration: none;
 }
 .gallery-img-container {
-  max-width: 200px;
+  max-height: 200px;
   display: inline-block;
   overflow: hidden;
   clear: both;
   position: relative;
-  margin-right: 20px;
-  margin-bottom: 10px;
+  margin-right: 40px;
+  margin-bottom: 20px;
 }
 .gallery-img-contiainer img {
   display: block;
@@ -179,7 +193,7 @@ footer .attribution a:visited {
   top: 0;
   left: 0;
   width: 100%;
-  height: 98%;
+  height: 100%;
   border-radius: 5px;
   background-color: rgba(0,0,0,0.5);
   /* text-align: center; */
@@ -190,6 +204,7 @@ footer .attribution a:visited {
   margin-left: 15px;
   margin-bottom: 5px;
   font-family: "Courier New", sans-serif;
+  font-style: normal;
 }
 .gallery-text span.title {
   text-transform: uppercase;
@@ -201,7 +216,13 @@ footer .attribution a:visited {
 
 @media only screen and (max-width: 600px) {
   .gallery img {
-    max-width: 100%;
+    max-height: 80px;
+  }
+  .gallery-img-container {
+    max-height: 80px;
+  }
+  .gallery-text:hover {
+    opacity: 0;
   }
 }
 
@@ -221,6 +242,7 @@ footer .attribution a:visited {
 form {
   font-family: "Courier New", sans-serif;
   font-size: 16pt;
+  font-style: normal;
 }
 form button {
   font-size: 16pt;
@@ -275,7 +297,8 @@ form input, textarea {
 }
 
 form button[type=submit] {
-    background: #4B99AD;
+    /* background: #4B99AD; */
+    background-color: rgba(0,0,0,0.3);
     padding: 8px 15px 8px 15px;
     border: none;
     cursor: pointer;
@@ -283,7 +306,8 @@ form button[type=submit] {
     border-radius: 3px;
 }
 form button[type=submit]:hover {
-    background: #4691A4;
+    /* background: #4691A4; */
+    background-color: rgba(0,0,0,0.5);
     box-shadow:none;
     -moz-box-shadow:none;
     -webkit-box-shadow:none;

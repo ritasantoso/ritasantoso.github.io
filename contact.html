@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/magnific-popup.css">
   <title>Rita Santoso | Contact</title>
 </head>
 <body>
@@ -60,8 +59,11 @@
     </footer>
   </div>
   <script src="js/jquery.min.js"></script>
-  <script src="js/popper.min.js"></script>
-  <script src="js/jquery.magnific-popup.min.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/jquery.ns-autogrow.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('textarea').css('overflow', 'hidden').autogrow({vertical: true, horizontal: false});
+    });
+  </script>
   </body>
   </html>
