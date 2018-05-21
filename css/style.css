@@ -39,6 +39,10 @@ nav .brand {
   font-size: 48pt;
   float: left;
 }
+nav .brand img {
+  width: 400px;
+  max-width: 100%;
+}
 nav .collapse {
   display: inline-block;
   float: right;
@@ -93,7 +97,7 @@ footer {
   margin-top: 30px;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 18pt;
+  font-size: 16pt;
 }
 .pull-left {
   float: left;
@@ -143,11 +147,11 @@ footer .attribution a:visited {
 * ARTICLE
 ***/
 #section-title {
-  font-size: 24pt;
+  font-size: 22pt;
 }
 
 #article h3 {
-  font-size: 18pt;
+  font-size: 16pt;
 }
 
 /***
@@ -231,7 +235,7 @@ footer .attribution a:visited {
 * ABOUT
 ***/
 .about {
-  font-size: 16pt;
+  font-size: 14pt;
   font-weight: normal;
 }
 
