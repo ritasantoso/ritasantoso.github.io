@@ -18,7 +18,7 @@ for picture in picture_data:
 
     print("<a href=\"/images/" + picture["filename"].replace('"', '&quot;') + "\" title=\"" + lightbox_description + "\">")
     print(" <div class=\"gallery-img-container\">")
-    print("  <img class=\"gallery-img\" src=\"/images/"  + picture["filename"].replace('"', '&quot;') + "\"></img>")
+    print("  <img class=\"gallery-img\" src=\"/images/_icon/"  + picture["filename"].replace('"', '&quot;') + "\"></img>")
     print("  <div class=\"gallery-text\">")
     print("     <span class=\"title\">" + picture["title"].replace('"', '&quot;') + "</span>")
     print("     <span class=\"medium\">" + picture["medium"].replace('"', '&quot;') + "</span>")
